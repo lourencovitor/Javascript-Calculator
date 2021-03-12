@@ -4,18 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Document</title>
     </head>
     <body>
-        <div class="teste"></div>
+        <div class="background"></div>
         <div class="main">
             <form name="form">
                 <input type="text" class="textView" name="textView" /><br/>
                 </form>
                 <table>
                     <tr>
-                        <td><input type="button" class="button" value="C" onclick="limpar()"></td>
+                        <td><input type="button" class="button" value="C" onclick="clear()"></td>
                         <td><input type="button" class="button" value="<" onclick="back()"></td>
                         <td><input type="button" class="button" value="/"
                                 onclick="insert('/')"></td>
@@ -49,7 +49,7 @@
                                 onclick="insert(2)"></td>
                         <td><input type="button" class="button" value="3"
                                 onclick="insert(3)"></td>
-                        <td rowspan="5"><input type="button" class="button" style="height: 106px" value="=" onclick="igual()"></td>
+                        <td rowspan="5"><input type="button" class="button" style="height: 106px" value="=" onclick="equal()"></td>
                     </tr>
                     <tr>
                         <td colspan="2"><input type="button" class="button" style="width: 106px" value="0"
@@ -60,6 +60,6 @@
                 </table>
             </div>
 
-            <script src="javascript.js"></script>
+            <script src="js/index.js"></script>
         </body>
     </html>

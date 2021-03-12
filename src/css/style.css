@@ -39,7 +39,7 @@
     border-radius: 7px;
 }
 
-.teste{
+.background{
     background: linear-gradient(to right, red, blue);
-    height: 41rem;
+    height: 100vh;
 }
